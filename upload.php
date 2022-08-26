@@ -25,7 +25,7 @@ $extension = end($temp);
             $filerenm = "data/".date("YmdHis").".".$extension;
             //exec("ffmpeg -ss $cuts -i $file -t $cute $filerenm");
             //exec("ffmpeg -i $file -ss $cuts -t $cute $filerenm"); // linux
-            exec("D:/softs/ffmpeg/bin/ffmpeg -i $file -ss $cuts -t $cute $filerenm"); // windown
+            exec("D:/softs/ffmpeg/bin/ffmpeg -i $file -ss $cuts -t $cute $filerenm"); // Window
             
             echo "Trim complected";
             
